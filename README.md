@@ -181,7 +181,7 @@ from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
 import logging
 logging.basicConfig(level=logging.INFO)
 
-# Load pre-trained model tokenizer (vocabulary)
+# Load pre-trained model tokenizer (vocabulary), pretrained models include: "bert-base-uncased", "bert-base-cased", "bert-large-uncased", "bert-large-cased"
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 # Tokenized input
